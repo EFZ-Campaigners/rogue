@@ -2,7 +2,7 @@
 Build/
 
 # Ignore Cache
-Library/ShaderCache/
+/Library/ShaderCache/
 Library/StateCache/
 Library/PackageCache/
 Library/PlayerDataCache/
