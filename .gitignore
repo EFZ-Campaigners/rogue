@@ -2,9 +2,9 @@
 Build/
 
 # Ignore Cache
-# Library/ShaderCache/
-# Library/StateCache/
-# Library/PackageCache/
-# Library/PlayerDataCache/
-# Temp/
-# Logs/
+Library/ShaderCache/
+Library/StateCache/
+Library/PackageCache/
+Library/PlayerDataCache/
+Temp/
+Logs/
