@@ -25,6 +25,7 @@ public class SceneFader : MonoBehaviour
 
     public IEnumerator FadeOut(float time)
     {
+        canvasGroup.alpha = 0;
         while (canvasGroup.alpha < 1)
         {
             canvasGroup.alpha += Time.deltaTime / time;
@@ -34,6 +35,7 @@ public class SceneFader : MonoBehaviour
 
     public IEnumerator FadeIn(float time)
     {
+        canvasGroup.alpha = 1;
         while (canvasGroup.alpha != 0)
         {
             canvasGroup.alpha -= Time.deltaTime / time;

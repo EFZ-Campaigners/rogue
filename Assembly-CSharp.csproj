@@ -36,11 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\Moving.cs" />
-     <Compile Include="Assets\Script\Facing.cs" />
-     <Compile Include="Assets\Script\Main.cs" />
+     <Compile Include="Assets\Script\Core\Moving.cs" />
      <Compile Include="Assets\Script\UI\SceneController.cs" />
+     <Compile Include="Assets\Script\Core\Main.cs" />
+     <Compile Include="Assets\Script\Core\Facing.cs" />
      <Compile Include="Assets\Script\UI\SceneFader.cs" />
+     <Compile Include="Assets\Script\Core\Singleton.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Program Files\Unity\2020.3.21f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

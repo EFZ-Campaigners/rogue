@@ -3,24 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneController : MonoBehaviour
+public class SceneController : Singleton<SceneController>
 {
-    public static SceneController instance;
-
     public SceneFader sceneFaderPrefab;
 
-    void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
-    }
 
     IEnumerator LoadScene(string scene)
     {
@@ -29,6 +15,7 @@ public class SceneController : MonoBehaviour
         SceneFader fader = Instantiate(sceneFaderPrefab);
 
         yield return StartCoroutine(fader.FadeOut(2.5f));
+        
         yield return SceneManager.LoadSceneAsync(scene);
 
         yield return StartCoroutine(fader.FadeIn(2.5f));
