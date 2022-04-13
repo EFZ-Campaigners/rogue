@@ -1,0 +1,52 @@
+{
+    "name": "Debug Controll",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "179cfd78-2aad-4324-9f8d-9f1e67622db8",
+            "actions": [
+                {
+                    "name": "Return",
+                    "type": "Button",
+                    "id": "333dcd97-e9fa-45f1-9c65-bf81af5e4209",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ToggleDebug",
+                    "type": "Button",
+                    "id": "436e6d52-0674-4801-823f-6aed513d893a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b070bd3b-19ab-4fcf-a237-acfb99727765",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Return",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6837e2a-f236-4bfd-b39f-afb09f3a42c4",
+                    "path": "<Keyboard>/backslash",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleDebug",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
