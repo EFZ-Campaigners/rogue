@@ -41,17 +41,21 @@
      <Compile Include="Assets\Scripts\Core\Main.cs" />
      <Compile Include="Assets\Scripts\Debug\DebugController.cs" />
      <Compile Include="Assets\Scripts\Treasure\Treasure.cs" />
+     <Compile Include="Assets\Scripts\Unit\UnitData.cs" />
      <Compile Include="Assets\Scripts\Piece\Piece.cs" />
      <Compile Include="Assets\Scripts\Debug\DebugCommand.cs" />
-     <Compile Include="Assets\Scripts\Core\Facing.cs" />
+     <Compile Include="Assets\Scripts\Environment\Facing.cs" />
+     <Compile Include="Assets\Scripts\Unit\Unit.cs" />
+     <Compile Include="Assets\Scripts\Core\BoardManager.cs" />
      <Compile Include="Assets\Scripts\Core\Singleton.cs" />
+     <Compile Include="Assets\Scripts\UI\GameGrid.cs" />
      <Compile Include="Assets\Scripts\Core\BattleSystem.cs" />
      <Compile Include="Assets\Scripts\Treasure\TreasureDisplay.cs" />
      <Compile Include="Assets\Scripts\Debug\DebugCommandBase.cs" />
-     <Compile Include="Assets\Scripts\UI\SceneFader.cs" />
-     <Compile Include="Assets\Scripts\Unit\Unit.cs" />
-     <Compile Include="Assets\Scripts\Unit\UnitData.cs" />
      <Compile Include="Assets\Scripts\UI\BattleHUD.cs" />
+     <Compile Include="Assets\Scripts\UI\SceneFader.cs" />
+     <Compile Include="Assets\Scripts\Environment\Environment.cs" />
+     <Compile Include="Assets\Scripts\Core\SpriteManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Program Files\Unity\2020.3.21f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
